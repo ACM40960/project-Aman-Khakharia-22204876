@@ -43,7 +43,8 @@ In the ever-changing field of artificial intelligence, the potential to recogniz
 
 In a world where images saturate our digital landscape, the ability to accurately categorize and understand image content is an exciting goal. The project begins with a fascinating challenge: distinguishing between Chihuahuas and muffins, objects that could easily be mistaken for one another. This puzzle serves as a miniature representation of AI's ability to dissect intricate visual patterns, ranging from textures to shapes, resulting in impressive classification accuracy.
 
-![chihuahua_vs_muffin](https://github.com/ACM40960/project-Divya14473/assets/77743546/a567a738-4d70-4856-b92a-36d5f27ef116)
+![chihuahua_vs_muffin](https://github.com/ACM40960/project-Aman-Khakharia-22204876/assets/136856207/38a50e38-5d12-42e1-aed7-5f9dd86e501d)
+
 
 **Figure 1. Chihuahua vs Muffin**
 
@@ -73,7 +74,8 @@ In addition to our balanced dataset, we have extended our project to include an 
 
 These carefully curated datasets serve as the cornerstone of our project, enabling us to showcase the effectiveness of our AI models in distinguishing between Chihuahuas and muffins.
 
-![original data](https://github.com/ACM40960/project-Divya14473/assets/77743546/c8380ec0-8d2f-4d98-aa69-55f2a6f3702b)
+![original data](https://github.com/ACM40960/project-Aman-Khakharia-22204876/assets/136856207/74d2770a-ad0f-4451-8877-0c3a3c56149d)
+
 
 **Figure 2. Original Data**
 
@@ -87,13 +89,15 @@ At the core of our approach lies the strategic utilization of the VGG19 pre-trai
 
 VGG19 is a convolutional neural network architecture that has made significant contributions to the field of deep learning and computer vision. It was developed by the Visual Geometry Group (VGG) at the University of Oxford and is renowned for its simplicity and effectiveness. VGG19 is a variant of VGG model which in short consists of 19 layers (16 convolution layers, 3 Fully connected layers, 5 MaxPool layers and 1 SoftMax layer)
 
-![VGG19_architecture](https://github.com/ACM40960/project-Divya14473/assets/77743546/5389e006-4363-493a-8da9-618c5e0ef71d)
+![VGG19_architecture](https://github.com/ACM40960/project-Aman-Khakharia-22204876/assets/136856207/6dae58f3-ea50-4e09-aee0-e04df9c677c0)
+
 
 **Figure 3. VGG19 Architecture**
 
 ### Sequential
 
-![Sequential_architecture](https://github.com/ACM40960/project-Divya14473/assets/77743546/b54bc96f-2749-4317-a38d-479b81f50a2b)
+![Sequential_architecture](https://github.com/ACM40960/project-Aman-Khakharia-22204876/assets/136856207/b3c784c2-a6bb-458e-a1d4-530539efebf1)
+
 
 **Figure 4. Sequential Architecture**
 
@@ -121,7 +125,8 @@ VGG19 is a convolutional neural network architecture that has made significant c
 
   These data augmentation techniques collectively contribute to a more comprehensive training experience, allowing the AI model to better adapt and perform accurately across various real-world scenarios.
 
-![augumented data](https://github.com/ACM40960/project-Divya14473/assets/77743546/9049d2ab-5874-485c-bfd3-20102f2d3298)
+![augumented data](https://github.com/ACM40960/project-Aman-Khakharia-22204876/assets/136856207/391a1412-bb15-4683-b282-216c8e187049)
+
 
 **Figure 5. Augmented Data**
 
@@ -157,7 +162,7 @@ Metrics quantify the model's performance during training and evaluation. We trac
 
 ### Early Stopping
 
-We implement the early stopping technique with the following configuration:
+We implement the early-stopping technique with the following configuration:
 
 - **Monitor:** We track the validation loss ('val_loss') to decide when to stop training.
 
@@ -181,13 +186,15 @@ Our project concludes with a comprehensive evaluation of our model's performance
 
 Our sequential CNN model, shaped through extensive training, emerges as a strong contender in deciphering complex images. Accuracy graphs depict its progressive convergence, yielding impressive train, test, and validation accuracies of 89%, 92%, and 93% respectively. This underscores its adeptness in capturing intricate patterns across diverse subjects.
 
-![Acc and loss seq](https://github.com/ACM40960/project-Divya14473/assets/77743546/c9f9621a-2e9f-43b9-ab26-69ef744c16b4)
+![Acc and loss seq](https://github.com/ACM40960/project-Aman-Khakharia-22204876/assets/136856207/1ffbf33f-d9f9-4fb1-9afb-59c6cda92d12)
+
 
 **Figure 6. Accuracy and Loss of Sequential CNN**
 
 Leveraging VGG19's pre-trained expertise, our transfer learning model excels in intricate classification. Accuracy graphs showcase its efficient convergence, resulting in notable train, test, and validation accuracies of 90%, 93%, and 94.5% respectively. This validates its capability to leverage learned features for complex recognition tasks.
 
-![Acc and loss VGG19](https://github.com/ACM40960/project-Divya14473/assets/77743546/c5f5f98e-9a3e-4094-acfa-d30af75d22b8)
+![Acc and loss VGG19](https://github.com/ACM40960/project-Aman-Khakharia-22204876/assets/136856207/0bef521f-3441-42c7-8738-20a0aed86953)
+
 
 **Figure 7. Accuracy and Loss of VGG19**
 
